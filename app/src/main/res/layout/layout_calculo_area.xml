@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.edu.ifsul.bruno.calculoareapoligonos.CalculoArea">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/var_msg_2"
+            android:id="@+id/textView"
+            android:textSize="16pt"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/var_btn_calcular"
+            android:id="@+id/btnCalcular"
+            android:textSize="12pt"
+            android:layout_marginTop="10pt"
+            android:textAlignment="center"
+            android:onClick="retornarValorCalculado" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@android:string/cancel"
+            android:id="@+id/btnCancel"
+            android:textSize="12pt"
+            android:layout_marginTop="10pt"
+            android:textAlignment="center"
+            android:onClick="retornarCancel" />
+    </LinearLayout>
+</RelativeLayout>

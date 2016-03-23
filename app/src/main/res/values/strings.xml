@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CalculoAreaPoligonos</string>
+    <string name="var_bem_vindo">Bem-vindo ao Sistema</string>
+    <string name="var_intro">Para calcular a área do trapezio, insira abaixo:</string>
+    <string name="var_base_maior">Base Maior</string>
+    <string name="var_base_menor">Base Menor</string>
+    <string name="var_altura">Altura</string>
+    <string name="var_botao_submit">Calcular</string>
+    <string name="var_botao_limpar">Limpar</string>
+    <string name="var_btn_calcular">Retornar Cálculo</string>
+    <string name="var_msg_2">Escolha uma Ação</string>
+</resources>
